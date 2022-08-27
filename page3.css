@@ -1,0 +1,45 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* flexbox - гнучкий контейнер */
+
+/* h1 {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+} */
+p {
+border: 1px solid black;
+}
+div {
+    /* для блочного елементу */
+    /* display: block;  */
+      /* для строчного елементу */
+    /* display: inline; */
+     /* для гнучкого контейнеру */
+      display: flex; 
+      /* напрямок розміщення елементів в гнучкому контейнері */
+      align-items: flex-end;
+      width: 100%;
+      /* align-items: center; */
+}
+body {
+  background-color:  #283046;
+  padding: 20px 20px;
+}
+span {
+font-weight: 700;
+font-size: 12px;
+color: #4F4F4F;
+border-radius: 50%;
+background-color: #6FCF97;
+padding: 3px;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+top:8px;
+left: 40px;
+}

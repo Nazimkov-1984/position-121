@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+transition: all 0.8s;
+}
+
+.main {
+    min-height: 100vh;
+    background: url('./img/nature.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: bisque;
+    margin-bottom: 20px;
+}
+button {
+    background-color: bisque;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+button:hover {
+ background-color: rgb(200, 137, 60);
+ cursor: pointer;
+ border-width: 5px;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 400px;
+    width: 200px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+li:hover {
+    box-shadow: 10px 10px 10px darkgrey;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+span {
+    margin-bottom: 20px;
+    color: azure;
+    background-color: black;
+}
+.ai {
+     background: url('./img/ai.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.figma{
+     background: url('./img/fg.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.ps {
+     background: url('./img/ps.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+div {
+    height: 45px;
+}
